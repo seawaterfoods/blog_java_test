@@ -1,4 +1,4 @@
-package com.joe.blog_java_test.utils;
+package com.joe.java_test.utils;
 
 import com.google.api.gax.paging.Page;
 import com.google.auth.oauth2.GoogleCredentials;

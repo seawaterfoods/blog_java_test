@@ -1,4 +1,4 @@
-package com.joe.blog_java_test.utils;
+package com.joe.java_test.utils;
 
 import com.azure.core.http.rest.PagedIterable;
 import com.azure.core.util.polling.LongRunningOperationStatus;
@@ -35,7 +35,7 @@ public class AzureUtil
     private ShareClient fileShareContainerClient = null;
     public final String _FAIL = "fail";
     public final String _SUCCESS = "success";
-    private int timeoutSec = 600;
+    private final int timeoutSec = 600;
 
     public AzureUtil(String connectionStr)
     {
@@ -253,7 +253,7 @@ public class AzureUtil
             result.exists();
         } catch (Exception e)
         {
-            log.error("connect to other file share fail {}:[{}]", e, e.getMessage());
+            log.error("connect to other file share fail [{}]", e.getMessage());
 //            e.printStackTrace();
             throw new Exception("connect to other file share fail " + e + ":[" + e.getMessage() + "]");
         }

@@ -1,20 +1,14 @@
-import com.azure.core.util.polling.SyncPoller;
 import com.azure.storage.blob.BlobClient;
 import com.azure.storage.blob.BlobContainerClient;
-import com.azure.storage.blob.models.BlobCopyInfo;
-import com.azure.storage.blob.models.BlobItem;
 import com.azure.storage.file.share.ShareClient;
 import com.azure.storage.file.share.ShareFileClient;
 import com.azure.storage.file.share.models.ShareFileItem;
-import com.joe.blog_java_test.utils.AzureUtil;
-import com.joe.blog_java_test.utils.LocalFileUtil;
+import com.joe.java_test.utils.AzureUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.util.Arrays;
-import java.util.regex.Pattern;
 
 
 public class AzureTest

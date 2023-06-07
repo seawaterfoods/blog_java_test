@@ -1,4 +1,4 @@
-package com.joe.blog_java_test;
+package com.joe.java_test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

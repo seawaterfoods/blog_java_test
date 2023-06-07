@@ -1,4 +1,4 @@
-package com.joe.blog_java_test.utils;
+package com.joe.java_test.utils;
 
 import lombok.extern.slf4j.Slf4j;
 
